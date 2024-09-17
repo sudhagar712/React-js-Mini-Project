@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+  .card {
+    transition: background-color 1.8s ease, color 0.3s ease;
+  }
+  
+  .card.active {
+    background-color: #789fc9; 
+    color: #fff; 
+  }
+  
+  .card.active h4,
+  .card.active h6,
+  .card.active p {
+    color: #fff; 
+  }
+  
+  .card.active button {
+    background-color: #d6dbe1; 
+    border-color: #072c54;
+    color: #110e0e;
+  }
+  
